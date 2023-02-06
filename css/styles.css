@@ -3,8 +3,8 @@
 
 :root{
  /*COLORS*/
---light-red: hsl(356, 100%, 66%);
---very-light-red: hsl(355, 100%, 74%);
+--light-red1: hsl(356, 100%, 66%);
+--very-light-red1: hsl(355, 100%, 74%);
 --very-dark-blue: hsl(208, 49%, 24%);
 
 --white: hsl(0, 0%, 100%);
@@ -13,8 +13,8 @@
 --very-dark-black-blue: hsl(240, 10%, 16%);
 
 
---very-light-red: hsl(13, 100%, 72%);
---light-red: hsl(353, 100%, 62%);
+--very-light-red2: hsl(13, 100%, 72%);
+--light-red2: hsl(353, 100%, 62%);
 
 --very-dark-gray-blue: hsl(237, 17%, 21%);
 --very-dark-desaturated-blue: hsl(237, 23%, 32%);
@@ -27,3 +27,164 @@
 --transition: all 0.3s linear;
 }
 
+body{
+    font-family: var(--ff-overpass);
+}
+
+
+/*HEADER*/
+.header{
+    align-items: center;
+    background: var(--light-red1);
+    background-image: url('../images/bg-pattern-intro-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom-left-radius: 5.5rem;
+    margin-bottom: 5rem;
+}
+
+.header__top{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.header__bar{
+    align-items: center;
+    display: flex;
+}
+
+.logo{
+    padding: 0 3rem;
+}
+
+.nav__menu{
+    display: flex;
+}
+
+.nav__button{
+    align-items: center;
+    display: flex;
+    color: var(--white);
+    margin-right:1rem ;
+}
+.nav__button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav__button p{
+    margin-right: 0.3rem;
+}
+
+.submenu{
+    display: none;
+}
+
+.buttons{
+    padding-right: 3rem;
+}
+
+.buttons__button{
+    color: var(--white);
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.buttons__button__pink{
+    background: var(--white);
+    border-radius: 2rem;
+    color: var(--light-red1);
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.7rem 1.5rem;
+}
+
+.buttons__button__pink:hover{
+    background: var(--very-light-red1);
+    color: var(--white);
+    transition: var(--transition);
+}
+
+.header__bottom{
+    color: var(--white);
+    cursor: pointer;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.header__button:hover{
+    background: var(--white);
+    color: var(--very-light-red1);
+    transition: var(--transition);
+}
+
+.header__title{
+    
+    font-size: 4rem;
+}
+
+.header__description{
+    padding: 2rem 0;
+}
+
+.header__buttons{
+    padding-bottom: 7rem;
+}
+
+.header__button{
+    border: 1px solid var(--white);
+    border-radius: 2rem;
+    font-weight: 600;
+    padding: 0.7rem 1.5rem;
+}
+
+.editor{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.editor__title{
+    color: var(--very-dark-blue);
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 5rem 0;
+}
+
+.editor__content{
+    align-items: flex-start;
+    display: flex;
+}
+
+.editor__left{
+    padding-left: 3rem;
+}
+
+.editor__text{
+    padding-bottom: 3rem;
+}
+
+.editor__text__title{
+    color: var(--very-dark-blue);
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.editor__text p{
+    color: var(--very-dark-grayish-blue);
+    line-height: 1.5rem;
+}
+
+.editor__img{
+    width: 55%;
+    transform: translate(220px, -200px);
+}

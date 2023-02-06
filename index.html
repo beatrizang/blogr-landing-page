@@ -9,17 +9,18 @@
   <title>Frontend Mentor | [Blogr]</title>
 
   <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
   <header class="header">
     <div class="header__top">
-      <div>
+      <div class="header__bar">
         <img class="logo" src="./images/logo.svg" alt="blogr logo">
         <nav class="nav">
           <ul class="nav__menu">
             <li class="nav__item">
-              <button>
-                Product
+              <button class="nav__button" type="button">
+                <p>Product</p>
                 <img src="./images/icon-arrow-light.svg" alt="arrow">
               </button>
               <ul class="submenu">
@@ -31,8 +32,9 @@
               </ul>
             </li>
             <li class="nav__item">
-              <button>
-                Company
+              <button class="nav__button" type="button">
+                <p>Company</p>
+                <img src="./images/icon-arrow-light.svg" alt="arrow">
               </button>
               <ul class="submenu">
                 <li class="submenu__item"><a href="#">About</a></li>
@@ -42,8 +44,9 @@
               </ul>
             </li>
             <li class="nav__item">
-              <button type="button">
-                Connect
+              <button class="nav__button" type="button">
+                <p>Connect</p>
+                <img src="./images/icon-arrow-light.svg" alt="arrow">
               </button>
               <ul class="submenu">
                 <li class="submenu__item"><a href="#">Contact</a></li>
@@ -58,16 +61,16 @@
         <button class="buttons__button" type="button">
           Login
         </button>
-        <button class="buttons__button pink" type="button">
+        <button class="buttons__button__pink" type="button">
           Sign Up
         </button>
       </div>
     </div>
     <div class="header__bottom">
-      <h1 class="header __title">A modern publishing platform</h1>
+      <h1 class="header__title">A modern publishing platform</h1>
       <p class="header__description">Grow your audience and build your online brand</p>
       <div class="header__buttons">
-        <button class="header__button">Start for Free</button>
+        <button class="buttons__button__pink">Start for Free</button>
         <button class="header__button">Learn More</button>
       </div>
     </div>
