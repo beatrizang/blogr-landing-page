@@ -44,7 +44,7 @@ body{
     flex-direction: column;
     justify-content: center;
     border-bottom-left-radius: 5.5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .header__top{
@@ -93,6 +93,7 @@ body{
 
 .buttons__button{
     color: var(--white);
+    cursor: pointer;
     font-weight: 600;
     padding: 1rem;
 }
@@ -114,14 +115,14 @@ body{
 
 .header__bottom{
     color: var(--white);
-    cursor: pointer;
     text-align: center;
-    padding-top: 3rem;
+    margin-top: 3rem;
 }
 
 .header__button:hover{
     background: var(--white);
     color: var(--very-light-red1);
+    cursor: pointer;
     transition: var(--transition);
 }
 
@@ -150,13 +151,15 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow-x: hidden;
+    overflow-y: visible;
 }
 
 .editor__title{
     color: var(--very-dark-blue);
     font-size: 2rem;
     font-weight: 600;
-    padding: 5rem 0;
+    padding: 6rem 0;
 }
 
 .editor__content{
@@ -226,5 +229,67 @@ body{
 }
 
 .laptop__img{
+    width: 55%;
+    transform: translate(-220px, 0);
+}
+
+.laptop__text{
+    margin-bottom: 3rem;
+    width: 80%;
+}
+
+.laptop__text__title{
+    color: var(--very-dark-blue);
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.laptop__text p{
+    color: var(--very-dark-grayish-blue);
+    line-height: 1.5rem;
+}
+
+.footer{
+    background: var(--very-dark-black-blue);
+    border-radius: 0 5rem 0 0;
+}
+.footer__top{
+    align-items: flex-start;
+    display: flex;
+    padding: 3rem;
     
+}
+.footer__column{
+    padding: 0 9rem;
+}
+
+.footer__column__title{
+    color: var(--white);
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.footer__menu{
+    color: var(--grayish-blue);
+    line-height: 1.5rem;
+}
+
+.footer__menu__item:hover{
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+.attribution{
+    text-align: center;
+    color: var(--grayish-blue);
+    padding: 2rem 0;
+}
+
+.attribution a{
+    color: var(--white);
+}
+.attribution a:hover{
+    color: var(--grayish-blue);
+    text-decoration: underline;
+    transition: var(--transition);
 }
