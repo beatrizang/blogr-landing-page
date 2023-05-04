@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 50%;
-
+    border-radius: 0 0 0 5rem;
 }
 
 .header__top{
@@ -32,11 +32,92 @@
   background: transparent;
   border: none;
   color: var(--white);
+  cursor: pointer;
   font-family: var(--ff-overpass);
   font-size: 1rem;
   font-weight: 700;
 }
 
+.menu__btn:hover{
+  text-decoration: underline;
+}
+
+.submenu{
+  background: var(--white);
+  border-radius: 0.3rem;
+  line-height: 1.5rem;
+  margin: 1rem 1rem 0 0;
+  padding: 1rem;
+}
+
 .header__main{
   text-align: center;
+}
+
+.header__main__title{
+  color: var(--white);
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+
+.header__main__para{
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.header__buttons{
+  padding-bottom: 5rem;
+}
+
+.btn__white{
+  background: var(--white);
+  border: none;
+  border-radius: 2rem;
+  color: var(--light-red-1);
+  cursor: pointer;
+  font-family: var(--ff-overpass);
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
+  transition: all 0.3s linear;
+}
+
+.btn__white:hover{
+  background: var(--very-light-red-1);
+  color: var(--white);
+}
+
+.btn__login{
+  background: transparent;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  font-family: var(--ff-overpass);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-right: 2rem;
+}
+
+.btn__pink{
+  background: transparent;
+  color: var(--white);
+  border-radius: 2rem;
+  border: 1px solid var(--white);
+  font-family: var(--ff-overpass);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.8rem 1rem;
+  transition: all 0.3s linear;
+}
+
+.btn__pink:hover{
+  background: var(--white);
+  color: var(--light-red-1);
+  cursor: pointer;
+  border-radius: 2rem;
+  border: 1px solid var(--white);
+  font-family: var(--ff-overpass);
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
 }
