@@ -1,0 +1,42 @@
+.header{
+    background: linear-gradient(70deg, var(--very-light-red-2), var(--light-red-2));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+
+}
+
+.header__top{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+    padding: 1rem;
+}
+  
+.header__left{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+  margin-left: 3rem;
+}
+
+.menu{
+  display: flex;
+}
+
+.menu__btn{
+  background: transparent;
+  border: none;
+  color: var(--white);
+  font-family: var(--ff-overpass);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.header__main{
+  text-align: center;
+}
