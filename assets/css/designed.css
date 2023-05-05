@@ -1,0 +1,51 @@
+.designed{
+    background: url('../../images/illustration-editor-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: 120% 50%;
+    background-size:50%;
+    padding: 6rem 0  6rem 2rem;
+}
+
+.designed__title{
+    color: var(--very-dark-blue);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 7rem;
+}
+
+.designed__content{
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.designed__text{
+    width: 50%;
+}
+
+.designed__subtitle{
+    color: var(--very-dark-blue);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.designed__paragraph{
+    color: var(--very-dark-grayish-blue);
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.img__designed{
+    overflow-y: hidden;
+}
+
+
+
+
+
+
+
+
+
