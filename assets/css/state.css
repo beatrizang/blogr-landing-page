@@ -1,0 +1,25 @@
+.state{
+    align-items: center;
+    background: var(--very-dark-gray-blue);
+    
+    border-radius: 0 5rem 0 5rem;
+    display: flex;
+    height: 50vh;
+    margin: 5rem 0;
+}
+
+.state__text{
+    color: var(--white);
+    margin-left: 3rem;
+}
+
+.state__title{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.state__paragraph{
+    color: var(--grayish-blue);
+    line-height: 1.5rem;
+    width: 70%;
+}
