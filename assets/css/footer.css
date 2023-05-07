@@ -1,0 +1,31 @@
+.footer{
+    align-items: flex-start;
+    background: var(--very-dark-black-blue);
+    border-radius: 0 5rem 0 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.columns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.column{
+    color: var(--grayish-blue);
+    margin-left: 7rem;
+}
+
+.column__title{
+    color: var(--white);
+    margin-bottom: 1.5rem;
+}
+
+.column__menu{
+    line-height: 2.5rem;
+}
+
+.column__menu__item:hover{
+    text-decoration: underline;
+}

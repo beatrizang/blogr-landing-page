@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="./assets/css/header.css">
   <link rel="stylesheet" href="./assets/css/designed.css">
   <link rel="stylesheet" href="./assets/css/state.css">
+  <link rel="stylesheet" href="./assets/css/laptop.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
 </head>
 <body>
   <header class="header">
@@ -108,54 +110,53 @@
       </p>
     </div>
   </section>
-  <section>
-    <img src="./images/illustration-laptop-desktop.svg" alt="Image laptop">
-    <div>
-      <div>
-        <h3>Free, open, simple</h3>
-        <p>
+  <section class="laptop">
+    <div class="laptop__box">
+      <div class="box">
+        <h3 class="box__title">Free, open, simple</h3>
+        <p class="box__para">
           Blogr is a free and open source application backed by a large community of helpful developers. It supports 
           features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
           and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
         </p>
       </div>
-      <div>
-        <h3>Powerful tooling</h3>
-        <p>
+      <div class="box">
+        <h3 class="box__title">Powerful tooling</h3>
+        <p class="box__para">
           Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
           capable of producing even the most complicated sites.
         </p>
       </div>
     </div>
   </section>
-  <footer>
-    <img src="./images/logo.svg" alt="blogr logo">
-    <div>
-      <div>
-        <p>Product</p>
-        <ul>
-          <li><a href="#">Overview</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Marketplace</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Integrations</a></li>
+  <footer class="footer">
+    <img class="footer__logo" src="./images/logo.svg" alt="blogr logo">
+    <div class="columns">
+      <div class="column">
+        <p class="column__title">Product</p>
+        <ul class="column__menu">
+          <li class="column__menu__item"><a href="#">Overview</a></li>
+          <li class="column__menu__item"><a href="#">Pricing</a></li>
+          <li class="column__menu__item"><a href="#">Marketplace</a></li>
+          <li class="column__menu__item"><a href="#">Features</a></li>
+          <li class="column__menu__item"><a href="#">Integrations</a></li>
         </ul>
       </div>
-      <div>
-        <p>Company</p>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Careers</a></li>
+      <div class="column">
+        <p class="column__title">Company</p>
+        <ul class="column__menu">
+          <li class="column__menu__item"><a href="#">About</a></li>
+          <li class="column__menu__item"><a href="#">Team</a></li>
+          <li class="column__menu__item"><a href="#">Blog</a></li>
+          <li class="column__menu__item"><a href="#">Careers</a></li>
         </ul>
       </div>
-      <div>
-        <p>Connect</p>
-        <ul>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Newsletter</a></li>
-          <li><a href="#">LinkedIn</a></li>
+      <div class="column">
+        <p class="column__title">Connect</p>
+        <ul class="column__menu">
+          <li class="column__menu__item"><a href="#">Contact</a></li>
+          <li class="column__menu__item"><a href="#">Newsletter</a></li>
+          <li class="column__menu__item"><a href="#">LinkedIn</a></li>
         </ul>
       </div>
     </div>

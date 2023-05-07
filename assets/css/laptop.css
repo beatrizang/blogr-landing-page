@@ -1,0 +1,31 @@
+.laptop{
+    align-items: center;
+    background: url('../../images/illustration-laptop-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: -30% 50%;
+    background-size:50%;
+    height: 70vh;
+    padding: 10rem 6rem;
+}
+
+.laptop__box{
+    padding-left: 50%;
+    width: 50%;
+}
+
+.box{
+    margin-bottom: 2rem;
+}
+
+.box__title{
+    color: var(--very-dark-blue);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.box__para{
+    color: var(--very-dark-grayish-blue);
+    line-height: 1.5rem;
+    width: 80%;
+}
