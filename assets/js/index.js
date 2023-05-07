@@ -13,6 +13,8 @@ let connectShow = false;
 btnProduct.addEventListener('click',()=>{
     if(!productShow){
         productSub.style.display = "block";
+        companySub.style.display = "none";
+        connectSub.style.display = "none";
         productShow = true;
     }
     else{
@@ -24,6 +26,8 @@ btnProduct.addEventListener('click',()=>{
 btnCompany.addEventListener('click',()=>{
     if(!companyShow){
         companySub.style.display = "block";
+        productSub.style.display = "none";
+        connectSub.style.display = "none";
         companyShow = true;
     }
     else{
@@ -35,6 +39,8 @@ btnCompany.addEventListener('click',()=>{
 btnConnect.addEventListener('click',()=>{
     if(!connectShow){
         connectSub.style.display = "block";
+        productSub.style.display = "none";
+        companySub.style.display = "none";
         connectShow = true;
     }
     else{
