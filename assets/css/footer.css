@@ -27,5 +27,6 @@
 }
 
 .column__menu__item:hover{
+    cursor: pointer;
     text-decoration: underline;
 }
