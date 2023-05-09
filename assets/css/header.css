@@ -9,7 +9,6 @@
 .header__top{
     align-items: center;
     display: flex;
-    justify-content: space-between;
     margin: 0 1rem;
     padding: 1rem 1rem 6rem 1rem;
 }
@@ -17,7 +16,19 @@
 .header__left{
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+}
+
+.header__right{
+  margin-left: 50%;
+}
+
+.btn-menu{
+  background: transparent;
+  border: none;
+  color: var(--white);
+  font-size: 1.5rem;
+  display: none;
 }
 
 .nav{
@@ -135,4 +146,39 @@
   font-family: var(--ff-overpass);
   font-size: 1rem;
   padding: 0.8rem 1rem;
+}
+
+@media screen and (max-width: 375px) {
+
+  .header__top{
+    justify-content: space-between;
+  }
+
+
+  .btn-menu{
+    display: flex;
+  }
+
+  .header__left{
+    display: none;
+  }
+
+  .header__main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header__main__title{
+    font-size: 2rem;
+  }
+
+  .header__main__para{
+    width: 50%;
+  }
+
+  .header__buttons{
+    padding-top: 1rem;
+  }
 }

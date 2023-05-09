@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/58e0304b5a.js" crossorigin="anonymous"></script>
   
   <title>Frontend Mentor | [Blogr]</title>
 
@@ -18,8 +19,11 @@
 <body>
   <header class="header">
     <div class="header__top">
+      <img class="header__logo" src="./images/logo.svg" alt="blogr logo">
+      <button class="btn-menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
       <div class="header__left">
-        <img class="header__logo" src="./images/logo.svg" alt="blogr logo">
         <nav class="nav">
           <ul class="menu">
             <li class="menu__item">
@@ -61,10 +65,10 @@
             </li>
           </ul>
         </nav>
-      </div>
-      <div class="header__right">
-        <button class="btn__login">Login</button>
-        <button class="btn__white">Sign Up</button>
+        <div class="header__right">
+          <button class="btn__login">Login</button>
+          <button class="btn__white">Sign Up</button>
+        </div>
       </div>
     </div>
     <div class="header__main">
