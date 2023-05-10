@@ -1,6 +1,10 @@
 .state{
     align-items: center;
     background: var(--very-dark-gray-blue);
+    background-image: url('../../images/bg-pattern-circles.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -70% 90%;
     border-radius: 0 5rem 0 5rem;
     display: flex;
     height: 50vh;
@@ -27,6 +31,7 @@
     .state{
         flex-direction: column;
         height: 50vh;
+        background-position: center 100%;
         margin-top: 200px;
     }    
 
@@ -53,6 +58,8 @@
 
 @media screen and (max-width: 375px) {
     .state{
+        background-position: center -80%;
+        background-size: 100%;
         flex-direction: column;
         height: 100vh;
     }    
