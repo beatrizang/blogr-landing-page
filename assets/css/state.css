@@ -23,6 +23,33 @@
     width: 70%;
 }
 
+@media screen and (max-width: 768px) {
+    .state{
+        flex-direction: column;
+        height: 50vh;
+        margin-top: 200px;
+    }    
+
+    .img__state{
+        margin-top: -30%;
+        width: 50%;
+    }
+
+    .state__text{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .state__paragraph{
+        width: 90%;
+    }
+}
+
 
 @media screen and (max-width: 375px) {
     .state{
