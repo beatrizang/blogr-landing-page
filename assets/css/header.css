@@ -148,6 +148,41 @@
   padding: 0.8rem 1rem;
 }
 
+@media screen and (max-width: 768px) {
+
+  .header__top{
+    justify-content: space-between;
+  }
+
+
+  .btn-menu{
+    display: flex;
+  }
+
+  .header__left{
+    display: none;
+  }
+
+  .header__main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header__main__title{
+    font-size: 2rem;
+  }
+
+  .header__main__para{
+    width: 50%;
+  }
+
+  .header__buttons{
+    padding-top: 1rem;
+  }
+}
+
 @media screen and (max-width: 375px) {
 
   .header__top{

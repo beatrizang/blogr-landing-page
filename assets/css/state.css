@@ -1,7 +1,6 @@
 .state{
     align-items: center;
     background: var(--very-dark-gray-blue);
-    
     border-radius: 0 5rem 0 5rem;
     display: flex;
     height: 50vh;
@@ -23,3 +22,35 @@
     line-height: 1.5rem;
     width: 70%;
 }
+
+
+@media screen and (max-width: 375px) {
+    .state{
+        flex-direction: column;
+        height: 100vh;
+    }    
+
+    .img__state{
+        margin-top: -30%;
+        width: 80%;
+    }
+
+    .state__text{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .state__paragraph{
+        width: 90%;
+    }
+}
+
+
+
+
+
