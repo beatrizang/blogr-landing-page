@@ -30,3 +30,24 @@
     cursor: pointer;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 375px) {
+    .footer{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        padding: 3rem;
+    }
+
+    .columns{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .column{
+        margin: 2rem 0;
+        text-align: center;
+    }
+    
+}

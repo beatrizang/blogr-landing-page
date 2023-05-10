@@ -13,6 +13,10 @@
     width: 50%;
 }
 
+.img__laptop__mb{
+    display: none;
+}
+
 .box{
     margin-bottom: 2rem;
 }
@@ -28,4 +32,45 @@
     color: var(--very-dark-grayish-blue);
     line-height: 1.5rem;
     width: 80%;
+}
+
+@media screen and (max-width: 375px) {
+    .laptop{
+        align-items: center;
+        background: none;
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .img__laptop__mb{
+        display: flex;
+        width: 100%;
+    }
+
+    .box{
+        align-items: center;
+        width: 90%;
+        justify-content: center;
+    }
+
+    .laptop__box{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0%;
+        width: 100%;
+    }
+
+    
+    .box__title{
+        text-align: center;
+    }
+    
+    .box__para{
+        text-align: center;
+        width: 100%;
+    }
 }
