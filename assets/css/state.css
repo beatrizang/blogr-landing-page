@@ -61,7 +61,7 @@
         background-position: center -80%;
         background-size: 100%;
         flex-direction: column;
-        height: 100vh;
+        height: 500px;
     }    
 
     .img__state{
